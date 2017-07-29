@@ -66,7 +66,7 @@
 				type: "text/css",
 				href: (location.hostname.match("localhost") &&
 					document.title.match("Add CSS Bookmarklet")) ? "/addcss.css" :
-					"https://rocktronica.github.io/Add-CSS-Bookmarklet/addcss.min.css"
+					"https://github.com/Tantumonium/Add-CSS-Bookmarklet/addcss.min.css"
 			}).appendTo($container).on("load", function() {
 				$txt.focus();
 			});
